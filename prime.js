@@ -1,16 +1,16 @@
-let str = 13
+let num = 13;
 
-let count = ""
+let count =0;
 
-for(let i = 1 ; i<=str.length ; i++){
+for(let i = 1 ; i<=num ; i++){
 
- if(str%i===0){
-    count++
+ if(num%i===0){
+    count++;
  }
 }
-if(count=2){
-   console.log(prime)
+if(count==2){
+   console.log(num,"is Prime no")
 }
 else{
-    console.log(Not prime)
+    console.log(num,"is Not prime no")
 }
